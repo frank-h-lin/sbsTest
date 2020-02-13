@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=C:/Support/chromedriver.exe -jar c:\Support\selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register -browser "browserName=chrome, version=ANY, maxInstances=10, platform=WINDOWS" 
